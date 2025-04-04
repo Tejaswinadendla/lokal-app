@@ -1,0 +1,53 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #0b8fee; /* Green Background */
+    padding: 0px 0;
+    width: 100%;
+    position: fixed; /* Fixed position */
+    top: 0; /* Sticks to the top of the page */
+    left: 0; /* Aligns with the left edge of the page */
+    z-index: 1000; /* Ensures it stays on top of other elements */
+  }
+  /* Container */
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    width: 100%;
+  }
+  
+  /* Left half - Jobs */
+  .nav-left {
+    text-align: center;
+    flex: 1;
+  }
+  
+  /* Middle Partition */
+  .nav-partition {
+    width: 3px;
+    height: 50px; /* Height of the partition */
+    background-color: white; /* Color of the partition */
+  }
+  
+  /* Right half - Bookmarks */
+  .nav-right {
+    text-align: center;
+    flex: 1;
+  }
+  
+  /* Nav Link Styles */
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #065c1a; /* Light green on hover */
+  }
+  

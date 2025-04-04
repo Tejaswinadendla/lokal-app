@@ -1,0 +1,136 @@
+/* .job-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  .job-card h3 {
+    margin: 0;
+    color: #333;
+  }
+  .job-card p {
+    margin: 5px 0;
+  }
+  .job-card button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .job-card button:hover {
+    background-color: #0056b3;
+  }
+   */
+
+   /* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container */
+  .job-list-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  /* Job Card */
+  .job-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .job-card h3 {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .job-card p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 14px;
+  }
+  
+  /* Button */
+  .job-card button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .job-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Job List Grid */
+  .job-list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+  }
+  
+  /* Job Details Card */
+  .job-details-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .job-details-card h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .job-details-card p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  /* Call HR Button */
+  .call-hr-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .call-hr-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .job-list-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
